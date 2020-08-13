@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Coventic</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <img
+        class="header-img"
+        src="./assest/coventic background.png"
+        alt="background image"
+      />
+
+      <!-- navigarion bar -->
+      <nav>
+        <a href="#"><img src="./assest/coventic logo.png" alt="logo" /></a>
+        <a href="#"><button>Sign Up</button></a>
+      </nav>
+
+      <!-- content -->
+      <section class="content">
+        <div>
+          <p>Welcome to our</p>
+          <h1>
+            World's<br />
+            Creative Studio
+          </h1>
+          <button>Start Now</button>
+        </div>
+      </section>
+
+      <!-- sidebar -->
+      <section class="sidebar">
+        <img src="./assest/coventic menu.png" alt="menu" />
+        <div>
+          <img src="./assest/coventic fb.png" alt="f" />
+          <img src="./assest/coventic ig.png" alt="ig" />
+          <img src="./assest/coventic info.png" alt="info" />
+        </div>
+        <div>
+          <img src="./assest/coventic share.png" alt="share" />
+          <img src="./assest/coventic tw.png" alt="tw" />
+        </div>
+      </section>
+
+      <!-- bubbles -->
+      <section class="bubbles">
+        <span><img src="./assest/coventic  bubble.png" alt="" /></span>
+        <span><img src="./assest/coventic  bubble.png" alt="" /></span>
+        <span><img src="./assest/coventic  bubble.png" alt="" /></span>
+        <span><img src="./assest/coventic  bubble.png" alt="" /></span>
+        <span><img src="./assest/coventic  bubble.png" alt="" /></span>
+        <span><img src="./assest/coventic  bubble.png" alt="" /></span>
+      </section>
+    </header>
+
+    <!-- section -->
+    <section class="lorem">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+        mollitia soluta ipsam esse minus et ab officia dolores explicabo
+        pariatur nihil, tempora reiciendis assumenda atque deserunt voluptates
+        ex error animi! Dolorum dolor tenetur perferendis, voluptatibus
+        voluptatem quibusdam numquam natus quidem veritatis architecto ratione,
+        labore ex aliquam harum veniam nisi eius dolorem. Necessitatibus labore,
+        laborum obcaecati autem enim illo sunt tempora? Deleniti quod sunt eius
+        incidunt facilis laboriosam nemo eveniet voluptate magni, obcaecati
+        dignissimos impedit, praesentium neque, iure unde cum rerum? Amet
+        voluptatem non saepe voluptatibus a, doloribus earum vitae blanditiis!
+        Nesciunt, provident. Distinctio similique praesentium dolorum officiis
+        recusandae voluptates eius molestias ab vel at, est nihil odio dolore
+        porro, itaque harum quas quo voluptatibus, doloremque delectus
+        aspernatur odit ducimus? Sunt! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Natus iusto dolor quas corrupti impedit, veniam
+        corporis, debitis ex fugiat vel voluptatibus perferendis, dolorum amet
+        hic officiis tempora. Laboriosam, reiciendis quod. Iure obcaecati
+        veritatis maiores, dolore deserunt nostrum autem, earum adipisci
+        voluptatibus similique eveniet aspernatur! Ea optio excepturi tenetur
+        deleniti consectetur odit maiores, nisi, molestias eaque, modi rem.
+        Ipsa, non aspernatur? Aliquam culpa neque odio quasi doloribus velit
+        aspernatur voluptatum est necessitatibus! Aliquam optio voluptate in
+        commodi doloribus eligendi tenetur autem quibusdam? Delectus tenetur
+        deserunt vel blanditiis libero culpa, iste accusamus.
+      </p>
+    </section>
+
+    <!-- scripts -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script>
+      $(window).scroll(function () {
+        let position = $(window).scrollTop();
+        $("img.header-img").css({
+          width: 100 + position / 25 + "%",
+          height: 100 + position / 25 + "%",
+        });
+      });
+    </script>
+  </body>
+</html>
